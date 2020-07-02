@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  --dark: #111317;
+  --light: #ffffff;
+  --dark-blue: #111317;
+  --blue: #053354;
+  --light-blue: #18a4e0;
+  --off-white: #faf8f0;
+  --grey: #d3dde6;
+}
+
+body {
+  background: var(--dark);
+  color: var(--light);
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  position: relative;
+  cursor: default;
+  height: 100%;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  .title {
+    &-1 {
+      font-size: 6rem;
+      font-weight: 300;
+    }
+    &-2 {
+      font-size: 5.5rem;
+      font-weight: 300;
+    }
+    &-3 {
+      font-size: 4.5rem;
+      font-weight: 300;
+    }
+    &-4 {
+      font-size: 3.5rem;
+      font-weight: 300;
+    }
+  }
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h3 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a,
+button {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--off-white);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+button.btn {
+  border: solid #333 2px;
+  border-radius: 5px;
+}
